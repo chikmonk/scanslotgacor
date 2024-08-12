@@ -4,26 +4,23 @@ Script ini untuk membaca daftar string untuk melakukan pencarian dari suatu berk
 
 ## Cara Penggunaan
 
-Untuk menggunakan script ini, silahkan download terlebih dahulu dengan cara git clone
+Untuk menggunakan script ini, silahkan lalukan perintah ini
 ```bash
 git clone https://github.com/chikmonk/slotgacor.git
-```
-To use this script, you need to call it with the path to the directory you want to search as an argument. For example:
-
-```bash
+cd slotgacor
+chmod +x scan.sh
 bash scan.sh /var/www/html
 ```
+Dalam contoh perintah diatas, script akan mencari string dalam /var/www/html direktori dan subdirektorinya. silahkan ubah perintah /var/www/html sesuai letak direktori yang akan dilakukan pencarian string.
 
-In this example, the script will search for the strings in the `/var/www/html` directory and its subdirectories.
-
-## Example Output
+## Contoh Hasil
 ```
 The file /var/www/backdoor.php is a backdoor.
 The file /var/www/new_backdoor.php is not a backdoor, please inform this script author for the next investigation.
 ```
 
-## Input File
+## Kompilasi String
 
-The script reads the search strings from a file named `list.txt`. Each search string should be on its own line in this file.
+Script membaca string pencarian dari sebuah berkas bernama listgacor.txt. Setiap string pencarian harus berada pada barisnya sendiri dalam berkas ini. Silahkan gunakan atau update string pada listgacor.txt sesuai kebutuhan.
 
 ---
