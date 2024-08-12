@@ -1,9 +1,13 @@
-# First Aid Guide for Manual and Free Slot Gacor(Panduan Pertolongan Pertama Pada Slot Gacor Secara Manual Dan Gratis)
+# Pengecekan  Manual Slot Gacor pada Server
 
-This bash script reads a list of search strings from a file, searches for these strings in a specified directory and its subdirectories, and prints the unique results.
+Script ini untuk membaca daftar string untuk melakukan pencarian dari suatu berkas, pencarian string ini dalam direktori tertentu dan subdirektorinya.
 
-## Usage
+## Cara Penggunaan
 
+Untuk menggunakan script ini, silahkan download terlebih dahulu dengan cara git clone
+```bash
+git clone https://github.com/chikmonk/slotgacor.git
+```
 To use this script, you need to call it with the path to the directory you want to search as an argument. For example:
 
 ```bash
