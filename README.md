@@ -24,3 +24,6 @@ The file /var/www/new_backdoor.php is not a backdoor, please inform this script 
 Script membaca string pencarian dari sebuah berkas bernama listgacor.txt. Setiap string pencarian harus berada pada barisnya sendiri dalam berkas ini. Silahkan gunakan atau update string pada listgacor.txt sesuai kebutuhan.
 
 ---
+
+## Referensi
+https://github.com/luridarmawan/scan-slot-backdoor
