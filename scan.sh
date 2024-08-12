@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "************************************************************"
+echo "Automate Scan Slot Gacor Script v1.0"
+echo "************************************************************"
+
 # Check if an argument was provided
 if [ "$#" -ne 1 ]; then
     echo "Usage: $0 path"
